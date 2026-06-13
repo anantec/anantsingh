@@ -25,7 +25,7 @@ const socials = [
     icon: <FaXTwitter size={14} />,
     description: 'Unfiltered thoughts on tech, content, and whatever else is on my mind.',
     url: 'https://x.com/pookieanant',
-    image: '/photos/c.jpg',
+    image: '/photos/x.jpg',
   },
 ];
 
