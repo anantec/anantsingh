@@ -93,7 +93,7 @@ export default function HeroSection() {
           className="w-28 h-28 md:w-36 md:h-36"
         >
           <img
-            src="/src/photos/avatar2.png"
+            src="/photos/avatar2.png"
             alt={profile.name}
             className="w-full h-full object-cover rounded-full"
           />

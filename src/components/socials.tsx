@@ -9,7 +9,7 @@ const socials = [
     icon: <Linkedin size={14} />,
     description: 'Professional updates, BD insights, and content strategy thoughts.',
     url: 'https://linkedin.com/in/anantdugtal',
-    image: '/src/photos/linkedin.jpg',
+    image: '/photos/linkedin.jpg',
   },
   {
     platform: 'Instagram',
@@ -17,7 +17,7 @@ const socials = [
     icon: <FaInstagram size={14} />,
     description: 'Behind the scenes, reels, and Hinglish takes on life and work.',
     url: 'https://instagram.com/sochungausername',
-    image: '/src/photos/igg.png',
+    image: '/photos/igg.png',
   },
   {
     platform: 'X',
@@ -25,7 +25,7 @@ const socials = [
     icon: <FaXTwitter size={14} />,
     description: 'Unfiltered thoughts on tech, content, and whatever else is on my mind.',
     url: 'https://x.com/pookieanant',
-    image: '/src/photos/x.jpg',
+    image: '/photos/c.jpg',
   },
 ];
 
