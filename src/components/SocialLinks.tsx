@@ -7,7 +7,7 @@ interface Props {
 }
 
 const LINKS = [
-   { key: 'x' as const, icon: X, label: 'X (Twitter)' },
+   { key: 'x' as const, icon: x, label: 'X (Twitter)' },
   { key: 'instagram' as const, icon: Instagram, label: 'Instagram' },
   { key: 'linkedin' as const, icon: Linkedin, label: 'LinkedIn' },
   { key: 'email' as const, icon: Mail, label: 'Email', isEmail: true },
