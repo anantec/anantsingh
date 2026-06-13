@@ -1,4 +1,5 @@
-import { Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
+import { FaXTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa6';
+import { Mail } from 'lucide-react';
 import type { Social } from '../types/portfolio';
 
 interface Props {
@@ -7,9 +8,9 @@ interface Props {
 }
 
 const LINKS = [
-   { key: 'x' as const, icon: x, label: 'X (Twitter)' },
-  { key: 'instagram' as const, icon: Instagram, label: 'Instagram' },
-  { key: 'linkedin' as const, icon: Linkedin, label: 'LinkedIn' },
+  { key: 'x' as const, icon: FaXTwitter, label: 'X (Twitter)' },
+  { key: 'instagram' as const, icon: FaInstagram, label: 'Instagram' },
+  { key: 'linkedin' as const, icon: FaLinkedin, label: 'LinkedIn' },
   { key: 'email' as const, icon: Mail, label: 'Email', isEmail: true },
 ];
 
