@@ -1,4 +1,4 @@
-import { Twitter, Instagram, Linkedin, Mail, X } from 'lucide-react';
+import { Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
 import type { Social } from '../types/portfolio';
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 }
 
 const LINKS = [
-  { key: 'x' as const, icon: X, label: 'X (Twitter)' },
+   { key: 'x' as const, icon: X, label: 'X (Twitter)' },
   { key: 'instagram' as const, icon: Instagram, label: 'Instagram' },
   { key: 'linkedin' as const, icon: Linkedin, label: 'LinkedIn' },
   { key: 'email' as const, icon: Mail, label: 'Email', isEmail: true },
@@ -19,12 +19,12 @@ export default function SocialLinks({ social, variant = 'pills' }: Props) {
       {LINKS.map(({ key, icon: Icon, label, isEmail }) => {
         const value = social[key];
         if (!value) return null;
-        const href = isEmail ? `mailto:${value}` : value;
+        const href = isEmail ? `https://mail.google.com/mail/?view=cm&to=${value}` : value;
         return (
           <a
             key={key}
             href={href}
-            target={isEmail ? undefined : '_blank'}
+            target="_blank"
             rel="noopener noreferrer"
             aria-label={label}
             className={
