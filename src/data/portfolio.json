@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "name": "Anant Singh",
+    "shortName": "Anant",
+    "tagline": "I turn ideas into words that move people - and brands into voices people trust.",
+    "role": "Business Developer & Content Manager",
+    "specialization": "Business Developer · Video Editing · Software Developer · Ghostwriting",
+    "location": "Lucknow, India",
+    "yearsOfExperience": 3,
+    "bio": "I don't just edit videos or write code - I help founders and creators show up online in a way that actually works. I've built full-stack web apps, and managed LinkedIn presence for business owners who don't have time to figure it out themselves.\n I'm an MCA graduate from Lucknow working at the intersection of business development, content, and technology. Whether it's a reel that needs to hook in two seconds, a website that needs to load fast and convert, or a LinkedIn post that sounds like you - I bring the same level of attention to all of it. \n Currently a BD Intern at FileMyFirm. Freelancing on the side. Building my own thing in parallel.",
+    "avatarSvg": "/src/photos/avatar.svg",
+    "social": {
+      "x": "https://x.com/pookieanant",
+      "instagram": "https://instagram.com/sochungausername",
+      "linkedin": "https://linkedin.com/in/anantdugtal",
+      "email": "anantdugtal.work@gmail.com"
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Content & Strategy",
+        "items": [
+          "Content Strategy",
+          "Video Editing",
+          "Ghostwriting"
+        ]
+      },
+      {
+        "name": "Scriptwriting",
+        "items": [
+          "Short-form Video Scripts",
+          "Hooks & CTAs",
+          "Narrative Storytelling",
+          "Educational Scripts",
+          "Documentary Style"
+        ]
+      },
+      {
+        "name": "Development",
+        "items": [
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "TypeScript",
+          "MongoDB",
+          "Python",
+          "Express.js",
+          "Angular",
+          "WordPress",
+          "RESTful APIs"
+        ]
+      },
+      {
+        "name": "Creative",
+        "items": [
+          "Video Editing",
+          "Canva Design",
+          "Figma",
+          "Visual Storytelling",
+          "Content Repurposing",
+          "Social Media Content"
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          "Notion",
+          "VS Code",
+          "Figma",
+          "Canva",
+          "CapCut",
+          "Postman",
+          "Git"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "FileMyFirm PVT LTD",
+      "role": "Business Developer Intern",
+      "period": "Jan 2026 - Present",
+      "location": "Hybrid (Lucknow)",
+      "summary": "Driving client acquisition and outreach for a legal and compliance services firm, supporting both business growth and digital presence.",
+      "highlights": [
+        "Drive client acquisition and manage outreach pipelines for legal and compliance services",
+        "Identify and qualify potential leads, coordinating with team to convert prospects into clients",
+        "Support digital presence and marketing initiatives to enhance brand awareness"
+      ]
+    },
+    {
+      "company": "Independent",
+      "role": "Freelance Video Editor & Social Media Manager",
+      "period": "2024 - Present",
+      "location": "Remote",
+      "summary": "Full-service content and creative work for founders, creators, and brands - from video editing to LinkedIn ghostwriting and social strategy.",
+      "highlights": [
+        "Edited 9+ videos for a 500K+ Instagram educational creator; one reel hit 4M+ views, growing account significantly within 2–3 days; others average 300K views",
+        "Specialized in CapCut (Windows) with keyframe-animated captions, SFX/BGM selection, and compound clip structures",
+        "Managed LinkedIn accounts and ghostwriting for clients - posts, carousels, and content strategy targeting founders and business audiences",
+        "Designed social media graphics and brand assets using Canva and Figma"
+      ]
+    },
+    {
+      "company": "The Real One",
+      "role": "WordPress Developer",
+      "period": "Oct 2025 - Nov 2025",
+      "location": "Hybrid (Lucknow)",
+      "summary": "Built and optimized high-performance WordPress websites, handling everything from SEO to copywriting and front-end customization.",
+      "highlights": [
+        "Architected high-performance websites using Elementor to extend core site functionality",
+        "Optimized search visibility and site speed via advanced on-page SEO, caching strategies, and performance tuning",
+        "Authored targeted copywriting for landing pages; modified templates with HTML/CSS/JS to improve conversion rates",
+        "Collaborated with design and marketing teams to translate brand guidelines into responsive, user-friendly web designs"
+      ]
+    },
+    {
+      "company": "FixCast.in",
+      "role": "Video Editor & WordPress Developer Intern",
+      "period": "Feb 2025 - Sept 2025",
+      "location": "Remote (Lucknow)",
+      "summary": "Produced branded video content and built responsive WordPress layouts while analyzing performance data to refine content strategies.",
+      "highlights": [
+        "Produced high-engagement scripts and branded video content driving measurable increases in audience engagement",
+        "Developed responsive, SEO-friendly WordPress layouts and managed theme/plugin updates to improve UX",
+        "Designed custom thumbnails and motion graphics in Canva, maintaining visual consistency across social platforms",
+        "Analyzed performance data to refine storytelling techniques for short-form campaigns"
+      ]
+    },
+    {
+      "company": "VrajPath iTech LLP",
+      "role": "Front-End Developer Intern",
+      "period": "July 2024 - Jan 2025",
+      "location": "Remote (Greater Noida)",
+      "summary": "Engineered interactive, responsive web pages using Angular and TypeScript, integrating RESTful APIs and collaborating with UI/UX designers.",
+      "highlights": [
+        "Engineered interactive web pages using Angular and TypeScript, ensuring full responsiveness across devices",
+        "Streamlined data management by integrating RESTful APIs to display and handle dynamic data",
+        "Translated Figma designs into user-friendly interfaces in collaboration with UI/UX designers",
+        "Adopted Agile practices and participated in peer code reviews for efficient team collaboration"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Reel - Paras Atal",
+      "description": "Short-form reel edited for Paras Atal - keyframe captions, SFX/BGM, compound clip structure.",
+      "tags": [
+        "Video Editing",
+        "Instagram",
+        "Reels"
+      ],
+      "link": "https://www.instagram.com/reel/DZXfO9ksXfO/",
+      "type": "reel",
+      "highlight": true
+    },
+    {
+      "title": "Reel - Harsh Vijay Shrivastava",
+      "description": "Instagram reel edited for Harsh Vijay - short-form storytelling and platform-optimized cuts.",
+      "tags": [
+        "Video Editing",
+        "Instagram",
+        "Reels"
+      ],
+      "link": "https://www.instagram.com/reel/DWMTnWYklz0/",
+      "type": "reel",
+      "highlight": true
+    },
+    {
+      "title": "FileMyFirm - WordPress Website",
+      "description": "Built and deployed full WordPress site for a legal and compliance services firm. SEO optimization, Elementor, performance tuning.",
+      "tags": [
+        "WordPress",
+        "Elementor",
+        "SEO"
+      ],
+      "link": "https://filemyfirm.com/",
+      "type": "website",
+      "highlight": true
+    },
+    {
+      "title": "Reel - Paras Atal",
+      "description": "Short-form reel edited for Paras Atal - retention-focused pacing and visual hooks.",
+      "tags": [
+        "Video Editing",
+        "Instagram",
+        "Reels"
+      ],
+      "link": "https://www.instagram.com/reel/DX_t_nfMqvL/",
+      "type": "reel",
+      "highlight": false
+    },
+    {
+      "title": "Reel - Harsh Vijay Shrivastava",
+      "description": "Instagram reel edited for Harsh Vijay - hook-driven opening, punchy transitions.",
+      "tags": [
+        "Video Editing",
+        "Instagram",
+        "Reels"
+      ],
+      "link": "https://www.instagram.com/reel/DZAmbfry_Mq/",
+      "type": "reel",
+      "highlight": false
+    },
+    {
+      "title": "GoStays - WordPress Website",
+      "description": "Built WordPress site for a group travel platform. Destination search UI, responsive layouts, brand-consistent design.",
+      "tags": [
+        "WordPress",
+        "Elementor",
+        "Travel"
+      ],
+      "link": "https://gostays.in/",
+      "type": "website",
+      "highlight": false
+    }
+  ],
+  "education": [
+    {
+      "institution": "MUIT",
+      "degree": "Master's of Computer Application",
+      "period": "2024 - 2026",
+      "location": "Lucknow, India"
+    },
+    {
+      "institution": "University of Lucknow",
+      "degree": "Bachelor of Computer Application",
+      "period": "2021 - 2024",
+      "location": "Lucknow, India"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Anant picks up your style fast and actually brings ideas you wouldn't have thought of yourself. Going to be interesting watching where he takes things",
+      "name": "Harsh Vijay Shrivastava",
+      "role": "Instagram Creator, 600k+ Followers",
+      "emoji": "✦"
+    },
+    {
+      "quote": "Works quickly, adapts to the brief, and doesn't need to be told twice. The kind of person you want in your corner when you're trying to grow.",
+      "name": "Paras Atal",
+      "role": "Instagram Creator, 400k+ followers",
+      "emoji": "◆"
+    },
+    {
+      "quote": "Sharp brain, picks things up faster than most. Didn't need much hand-holding - just got on with it and figured things out.",
+      "name": "FileMyFirm",
+      "role": "Current Internship",
+      "emoji": "◆",
+      "avatar": "/src/photos/filemyfirm.jpg"
+    }
+  ],
+  "services": [
+    {
+      "title": "Video Editing",
+      "description": "Long-form YouTube edits and short-form Reels / Shorts with narrative pacing, motion graphics, colour grading, and thumbnail strategy. Built for retention and visual identity.",
+      "deliverables": [
+        "YouTube Long-form",
+        "Reels / Shorts",
+        "Colour Grading",
+        "Motion Graphics"
+      ]
+    },
+    {
+      "title": "Content Strategy",
+      "description": "Full-spectrum content planning from audience research to editorial systems. I build the architecture your content operation runs on - so you always know what to publish, when, and why.",
+      "deliverables": [
+        "Brand Voice Guide",
+        "Editorial Calendar",
+        "Platform Strategy",
+        "Content Audit"
+      ]
+    },
+    {
+      "title": "Ghostwriting",
+      "description": "Long-form articles, LinkedIn posts, newsletters, and thought leadership that sound exactly like you - only sharper. Your ideas, your voice, my craft.",
+      "deliverables": [
+        "LinkedIn Posts",
+        "Long-form Articles",
+        "Email Newsletters",
+        "Executive Commentary"
+      ]
+    },
+    {
+      "title": "Scriptwriting",
+      "description": "YouTube scripts, short-form video hooks, and educational content designed for watch time and retention. I write for how people actually watch, not how you imagine they do.",
+      "deliverables": [
+        "YouTube Scripts",
+        "Reel / Short Scripts",
+        "Hooks & Intros",
+        "Series Outlines"
+      ]
+    }
+  ]
+}

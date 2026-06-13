@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0C0C0C;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #0C0C0C;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Chrome/silver gradient headline */
+.hero-heading {
+  background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Purple-magenta-orange gradient button */
+.gradient-btn {
+  background: linear-gradient(135deg, #7C3AED 0%, #C026D3 50%, #EA580C 100%);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.gradient-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+    overflow-x: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+  }
+  .marquee-card {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+}
+
+/* Subtle noise texture overlay on cards */
+.card-dark {
+  background-color: #111111;
+  border: 1px solid #1e1e1e;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0C0C0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
+}
+
+/* Prevent mid-word break in bio */
+.bio-text {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
