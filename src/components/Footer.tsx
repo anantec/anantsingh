@@ -70,7 +70,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {profile.name}. All rights reserved.
           </span>
           <span className="text-gray-700 text-xs">
-            Built with React · TypeScript · Tailwind
+            Built by Anant with React · TypeScript · Tailwind
           </span>
         </div>
       </div>
